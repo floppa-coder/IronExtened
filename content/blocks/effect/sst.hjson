@@ -11,7 +11,7 @@ requirements: [
   graphite/265
   silicon/320
   titanium/255
-  thoium/177
+  thorium/177
   surge-alloy/200
 ]
 consumes: {
