@@ -17,7 +17,7 @@ ejectEffect: none
 ammoTypes: {
 pyratite: {
 speed: 0.01
-damage: 400
+damage: 40
 width: 24
 type: ShrapnelBulletType
 lifetime: 18
