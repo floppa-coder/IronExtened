@@ -1,0 +1,27 @@
+name: Super Sonic Tower.
+type: OverdriveProjector
+planet: serpulo
+size: 3
+health: 1080
+range: 150
+speedBoost: 6.2
+category: effect
+hasBoost: false
+requirements: [
+  graphite/265
+  silicon/320
+  titanium/255
+  thoium/177
+  surge-alloy/200
+]
+consumes: {
+  power: 2.6
+  items: {
+    items: [
+      silicon/5
+	  thorium/5
+	  phase-fabric/1
+    ]
+  }
+}
+research: overdrive-projector

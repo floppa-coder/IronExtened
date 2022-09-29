@@ -1,0 +1,11 @@
+name: Large Iron Wall
+type: wall
+health: 5000
+size: 2
+armor: 7
+category: defense
+research: i-w
+requirements: [
+	i/24
+	lead/12
+]

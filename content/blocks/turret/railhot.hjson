@@ -1,0 +1,44 @@
+name: Railhot
+type: ContinuousLiquidTurret
+size: 2
+range: 55
+health: 1265
+rotateSpeed: 1.65
+shootSound: laser
+liquidConsumed: 0.4
+consumes: {
+power: 9
+}
+ammoTypes: {
+  slag: {
+  type: ContinuousFlameBulletType
+  length: 50
+  damage: 6
+  status: burning,
+  pierce: true,
+  colors: ["F49816", "E16C06", "A53A08"]
+  }
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+{
+suffix: "-gun"
+mirror: false
+progress: recoil
+moveY: -3
+x: 0
+y: 0
+}
+]
+
+}
+category: turret
+research: hoter
+requirements: [
+  silicon/130
+  graphite/35
+  copper/25
+  lead/70
+  titanium/120
+]

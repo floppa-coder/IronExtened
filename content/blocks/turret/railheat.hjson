@@ -1,0 +1,48 @@
+name: Railheat
+type: ContinuousLiquidTurret
+size: 3
+range: 187.5
+health: 3245
+rotateSpeed: 1.65
+shootSound: laser
+shoots: 3
+shootCone: 50
+shootShake: 1.1
+liquidConsumed: 0.4
+consumes: {
+power: 15
+}
+ammoTypes: {
+  slag: {
+  type: ContinuousFlameBulletType
+  length: 187.5
+  damage: 10
+  status: melting,
+  pierce: true,
+  colors: ["F49816", "E16C06", "A53A08"]
+  }
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+{
+suffix: "-gun"
+mirror: false
+progress: recoil
+moveY: 3
+x: 0
+y: 0
+}
+]
+
+}
+category: turret
+research: railhot
+requirements: [
+  silicon/230
+  graphite/100
+  thorium/235
+  i/155
+  copper/100
+  surge-alloy/20
+]

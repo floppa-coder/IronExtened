@@ -1,0 +1,64 @@
+name: Railhell
+type: ContinuousLiquidTurret
+size: 5
+range: 240
+health: 16000
+rotateSpeed: 3.65
+shootSound: laser
+shootShake: 1.5
+liquidConsumed: 0.46
+consumes: {
+power: 20
+}
+ammoTypes: {
+  helllquid: {
+  type: ContinuousFlameBulletType
+  length: 200
+  damage: 65
+  status: molten,
+  pierce: true,
+  colors: ["F49816", "E16C06", "A53A08"]
+  lightning: 4
+  lightningCone: 360
+  lightningAngle: 45
+  lightningColor: d94848
+  lightningDamage: 25
+  lightningLength: 10
+  }
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+{
+suffix: "-gun"
+mirror: false
+progress: recoil
+moveY: 2
+x: 0
+y: 3
+},
+{
+suffix: "-mid"
+mirror: false
+progress: recoil
+moveY: -3
+x: 0
+y: 0
+}
+]
+
+
+}
+category: turret
+research: raillava
+requirements: [
+  silicon/1200
+  thorium/666
+  h-s/552
+  s/666
+  i/1234
+  surge-alloy/1550
+  metaglass/555
+  phase-fabric/333
+  graphite/1000
+]

@@ -1,0 +1,27 @@
+name: Steel Compressor
+description: "Compress iron and iron ore to steel."
+size: 3
+hasItems: true
+hasPower: true
+type: GenericCrafter
+craftTime: 180
+consumes: {
+    power: 1.5
+    items: {
+      items:[
+		i-o/2
+		i/4
+      ]
+    }
+}
+requirements: [
+  graphite/250
+  silicon/200
+  copper/50
+  titanium/100
+  lead/100
+  i/150
+]
+category: crafting
+research: me
+outputItem: s/2

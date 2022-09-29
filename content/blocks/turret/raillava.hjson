@@ -1,0 +1,52 @@
+name: Raillava
+type: ContinuousLiquidTurret
+size: 4
+range: 120
+health: 7562
+rotateSpeed: 1.65
+shootSound: laser
+shoots: 3
+shootCone: 50
+shootShake: 1.1
+liquidConsumed: 0.4
+consumes: {
+power: 20
+}
+ammoTypes: {
+  slag: {
+  type: ContinuousFlameBulletType
+  length: 100
+  damage: 25
+  status: melting,
+  pierce: true,
+  colors: ["F49816", "E16C06", "A53A08"]
+  }
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+{
+suffix: "-barrel"
+mirror: false
+progress: recoil
+moveY: -3
+x: 0
+y: 8
+}
+]
+
+}
+category: turret
+research: railheat
+requirements: [
+  silicon/600
+  thorium/250
+  copper/600
+  lead/200
+  s/300
+  i/456
+  plastanium/200
+  titanium/200
+  surge-alloy/150
+  phase-fabric/55
+]

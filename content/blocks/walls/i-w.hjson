@@ -1,0 +1,10 @@
+name: Iron Wall
+type: wall
+health: 1000
+armor: 2
+category: defense
+research: s-m
+requirements: [
+	i/6
+	copper/3
+]

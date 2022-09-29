@@ -1,0 +1,7 @@
+name: "Steel"
+description: "Steel need in turrets and in production."
+color: "#b5b5b5"
+hardness: 3
+research: {
+parent: i
+}

@@ -1,0 +1,24 @@
+name: Melter
+description: "Melt iron ore to iron."
+size: 2
+hasItems: true
+hasPower: true
+type: GenericCrafter
+craftTime: 60
+consumes: {
+    power: 1
+    items: {
+      items:[
+		i-o/2
+      ]
+    }
+}
+requirements: [
+  graphite/200
+  silicon/175
+  copper/25
+  lead/75
+]
+category: crafting
+research: s-m
+outputItem: i/1

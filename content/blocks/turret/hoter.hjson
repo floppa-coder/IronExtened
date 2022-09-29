@@ -1,0 +1,54 @@
+type: ItemTurret
+name: "Hoter"
+description: "Fires 1 close-range fire blast at nearby enemies."
+reload: 32
+size: 1
+health: 2240
+shots: 1
+range: 115
+alternate: false
+spread: 3
+rotateSpeed: 4
+recoilAmount: 3.5
+restitution: 0.095
+shootShake: 10
+shootSound: shotgun
+ejectEffect: none
+ammoTypes: {
+pyratite: {
+speed: 0.01
+damage: 400
+width: 24
+type: ShrapnelBulletType
+lifetime: 18
+length: 125
+status: melting
+statusDuration: 120
+serrations: 8
+fromColor: f9a3c7
+toColor: f9a3c7
+ammoMultiplier: 6
+}
+{,
+coal: {
+speed: 0.01
+damage: 200
+width: 24
+type: ShrapnelBulletType
+lifetime: 20
+length: 100
+status: burning
+statusDuration: 80
+serrations: 8
+fromColor: f9a3c7
+toColor: f9a3c7
+ammoMultiplier: 9
+requirements:[
+graphite/50
+silicon/15
+copper/75
+lead/55
+titanium/42
+]
+research: s-m
+category: turret

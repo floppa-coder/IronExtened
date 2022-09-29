@@ -1,0 +1,7 @@
+name: "Iron"
+description: "Iron, need in all buildings."
+color: "#b5b5b5"
+hardness: 3
+research: {
+parent: i-o
+}

@@ -1,0 +1,7 @@
+name: "Iron Ore"
+description: "Basic ore. Need to melt"
+color: "#b5b5b5"
+hardness: 3
+research: {
+parent: scrap
+}
