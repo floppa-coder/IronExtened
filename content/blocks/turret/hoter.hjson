@@ -29,20 +29,7 @@ fromColor: f9a3c7
 toColor: f9a3c7
 ammoMultiplier: 6
 }
-{,
-coal: {
-speed: 0.01
-damage: 200
-width: 24
-type: ShrapnelBulletType
-lifetime: 20
-length: 100
-status: burning
-statusDuration: 80
-serrations: 8
-fromColor: f9a3c7
-toColor: f9a3c7
-ammoMultiplier: 9
+}
 requirements:[
 graphite/50
 silicon/15
