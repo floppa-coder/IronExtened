@@ -1,7 +1,7 @@
 name: Railhell
 type: ContinuousLiquidTurret
 size: 5
-range: 240
+range: 440
 health: 16000
 rotateSpeed: 3.65
 shootSound: laser
@@ -13,8 +13,8 @@ power: 20
 ammoTypes: {
   helllquid: {
   type: ContinuousFlameBulletType
-  length: 200
-  damage: 65
+  length: 400
+  damage: 70
   status: molten,
   pierce: true,
   colors: ["F49816", "E16C06", "A53A08"]
