@@ -1,7 +1,7 @@
 name: Raillava
 type: ContinuousLiquidTurret
 size: 4
-range: 120
+range: 360
 health: 7562
 rotateSpeed: 1.65
 shootSound: laser
@@ -15,7 +15,7 @@ power: 20
 ammoTypes: {
   slag: {
   type: ContinuousFlameBulletType
-  length: 100
+  length: 355
   damage: 25
   status: melting,
   pierce: true,
