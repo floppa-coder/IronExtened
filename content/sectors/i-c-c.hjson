@@ -3,11 +3,11 @@ planet: serpulo
 sector: 85
 difficulty: 6
 research: {
-parent: fingual-pass
+parent: fungalPass
 objectives: [
     {
       type: SectorComplete
-      preset: fingual-pass
+      preset: fungalPass
     }
   ]
 }
