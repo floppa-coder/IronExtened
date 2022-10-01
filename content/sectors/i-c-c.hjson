@@ -1,0 +1,13 @@
+
+planet: serpulo
+sector: 85
+difficulty: 6
+research: {
+parent: fingual-pass
+objectives: [
+    {
+      type: SectorComplete
+      preset: fingual-pass
+    }
+  ]
+}
