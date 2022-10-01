@@ -1,0 +1,35 @@
+name: "Mine fabricator"
+type: UnitFactory
+health: 615
+size: 3
+configurable: true
+consumes: {
+power: 4.2
+}
+plans: [
+  {
+    unit: mp
+    requirements: [
+      silicon/60
+      i/50
+	  s/10
+    ]
+    time: 2560
+  }
+]
+category: units
+requirements: [
+  graphite/200
+  silicon/260
+  s/75
+  i/100
+]
+research: {
+parent: i-c-c
+objectives: [
+  {
+    type: OnSector
+    preset: i-c-c
+  }
+  ]
+}
