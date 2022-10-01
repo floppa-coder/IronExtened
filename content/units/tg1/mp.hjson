@@ -1,0 +1,41 @@
+type: flying
+name: "Mine Patcher"
+description: "Patch mines on floor."
+flying: true
+health: 180
+hitSize: 7
+speed: 3.24
+range: 160
+accel: 0.2
+targetGround: true
+targetAir: true
+rotateSpeed: 16
+weapons:[
+{
+name: mp
+x: 0
+y: 0
+recoil: 0
+reload: 240
+mirror: false
+shootY: 3
+shootSound: lasershoot
+top: false
+bullet: {
+type: BasicBulletType
+sprite: iron-mine
+splashDamage: 100
+splashDamageRadius: 60
+speed: 0
+lifetime: 600
+width: 4
+height: 4
+hitsize: 16
+hitEffect: none
+despawnEffect: none
+}
+}
+]
+research: {
+parent: mf
+}
