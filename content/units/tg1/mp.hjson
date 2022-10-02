@@ -5,7 +5,7 @@ flying: true
 health: 180
 hitSize: 7
 speed: 3.24
-range: 160
+range: 1
 accel: 0.2
 targetGround: true
 targetAir: true
@@ -28,9 +28,9 @@ splashDamage: 100
 splashDamageRadius: 60
 speed: 0
 lifetime: 600
-width: 4
-height: 4
-hitsize: 16
+width: 8
+height: 8
+hitsize: 32
 hitEffect: none
 despawnEffect: none
 }
