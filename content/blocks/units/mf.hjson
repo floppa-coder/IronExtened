@@ -8,13 +8,13 @@ power: 4.2
 }
 plans: [
   {
-    unit: mp
+    unit: tg1
     requirements: [
       silicon/60
-      i/50
-	  s/10
+      i/45
+	  s/5
     ]
-    time: 2560
+    time: 1200
   }
 ]
 category: units
