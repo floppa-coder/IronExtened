@@ -1,0 +1,7 @@
+name: "Hevvy Bullet"
+description: "Bigger basic bullet."
+color: "#b5b5b5"
+hardness: 3
+research: {
+parent: abulc
+}

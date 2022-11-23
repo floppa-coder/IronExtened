@@ -1,0 +1,7 @@
+name: "Advance Bullet Chamber"
+description: "Chamber, for advance bullets."
+color: "#b5b5b5"
+hardness: 4
+research: {
+parent: s
+}
