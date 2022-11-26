@@ -1,0 +1,52 @@
+type: flying
+name: "Mine Shooter"
+description: "Shoots bullet with mines."
+flying: true
+health: 360
+hitSize: 14
+speed: 3.0
+range: 60
+accel: 0.18
+targetGround: true
+targetAir: true
+rotateSpeed: 18
+weapons:[
+{
+name: tg2
+x: 0
+y: 0
+recoil: 0
+reload: 180
+mirror: false
+shootY: 3
+shootSound: lasershoot
+top: false
+bullet: {
+type: BasicBulletType
+speed: 3
+lifetime: 600
+width: 8
+height: 8
+hitsize: 6
+hitEffect: none
+despawnEffect: none
+fragBullets: 1
+fragBullet: {
+type: BasicBulletType
+sprite: iron-mine
+splashDamage: 100
+splashDamageRadius: 60
+speed: 0
+lifetime: 600
+width: 8
+height: 8
+hitsize: 32
+hitEffect: none
+despawnEffect: none
+}
+}
+}
+]
+research: {
+parent: mf
+}
