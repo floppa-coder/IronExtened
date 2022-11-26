@@ -1,0 +1,16 @@
+name: "Core: Rust"
+description: "First interation core this mod. Better version of core: shard."
+type: CoreBlock
+health: 3500
+size: 3
+itemCapacity: 5000
+unitCapModifier: 16
+unitType: cu1
+research: s-m
+requirements: [
+	i/1500
+	titanium/2750
+	copper/3000
+	lead/2500
+	silicon/4000
+]
