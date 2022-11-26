@@ -1,8 +1,8 @@
 name: "Core: Rust"
 description: "First interation core this mod. Better version of core: shard."
 type: CoreBlock
-health: 3500
-size: 3
+health: 4000
+size: 4
 itemCapacity: 5000
 unitCapModifier: 16
 unitType: cu1
