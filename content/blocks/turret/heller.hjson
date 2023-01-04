@@ -1,0 +1,45 @@
+type: ItemTurret
+name: "Heller"
+description: "Final turret of the shrapnel tree."
+reload: 20
+size: 4
+health: 35000
+shots: 1
+range: 220
+alternate: false
+spread: 3
+rotateSpeed: 2.5
+recoilAmount: 3.5
+restitution: 0.095
+shootShake: 10
+shootSound: shotgun
+ejectEffect: none
+ammoTypes: {
+pyratite: {
+speed: 0.01
+damage: 135
+width: 28
+type: ShrapnelBulletType
+lifetime: 18
+length: 230
+status: melting
+statusDuration: 120
+serrations: 8
+fromColor: f9a3c7
+toColor: f9a3c7
+ammoMultiplier: 6
+}
+}
+requirements:[
+graphite/500
+silicon/745
+copper/670
+lead/246
+i/476
+s/500
+h-s/378
+titanium/300
+thorium/4000
+]
+research: laver
+category: turret

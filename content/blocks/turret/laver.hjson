@@ -1,0 +1,43 @@
+type: ItemTurret
+name: "Laver"
+description: "Better ver. of Heater."
+reload: 24
+size: 3
+health: 14000
+shots: 1
+range: 185
+alternate: false
+spread: 3
+rotateSpeed: 3
+recoilAmount: 3.5
+restitution: 0.095
+shootShake: 10
+shootSound: shotgun
+ejectEffect: none
+ammoTypes: {
+pyratite: {
+speed: 0.01
+damage: 90
+width: 28
+type: ShrapnelBulletType
+lifetime: 18
+length: 195
+status: melting
+statusDuration: 120
+serrations: 8
+fromColor: f9a3c7
+toColor: f9a3c7
+ammoMultiplier: 6
+}
+}
+requirements:[
+graphite/140
+silicon/156
+copper/235
+lead/120
+i/178
+s/250
+titanium/130
+]
+research: hoter
+category: turret

@@ -1,0 +1,42 @@
+type: ItemTurret
+name: "Heater"
+description: "Better ver. of Hoter. Better damage, range and more."
+reload: 28
+size: 2
+health: 5600
+shots: 1
+range: 150
+alternate: false
+spread: 3
+rotateSpeed: 3.5
+recoilAmount: 3.5
+restitution: 0.095
+shootShake: 10
+shootSound: shotgun
+ejectEffect: none
+ammoTypes: {
+pyratite: {
+speed: 0.01
+damage: 60
+width: 24
+type: ShrapnelBulletType
+lifetime: 18
+length: 160
+status: melting
+statusDuration: 120
+serrations: 8
+fromColor: f9a3c7
+toColor: f9a3c7
+ammoMultiplier: 6
+}
+}
+requirements:[
+graphite/70
+silicon/40
+copper/100
+lead/75
+i/150
+titanium/65
+]
+research: hoter
+category: turret
