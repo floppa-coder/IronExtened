@@ -1,0 +1,27 @@
+{
+  "name": "Iron Drill",
+  "description": "A tiny drill from iron.",
+  "type": "Drill",
+  "size": 1,
+  "tier": 2,
+  "itemCapacity": 3,
+  "drillTime": 40,
+  "hasPower": true,
+  "powerConsumes": 1,
+  "drawMineItem": false,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.03125,
+      "optional": false,
+      "booster": true
+    }
+  },
+  "requirements": [
+	copper/10,
+	i/15,
+	lead/5,
+  ],
+  "category": "drills",
+  "research": "s-m"
+}
