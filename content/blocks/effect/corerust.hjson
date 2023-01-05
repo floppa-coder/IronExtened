@@ -7,6 +7,7 @@ itemCapacity: 5000
 unitCapModifier: 16
 unitType: cu1
 research: s-m
+researchCost: ["i/1500", "titanium/2750", "copper/3000", "lead/2500", "silicon/4000"]
 requirements: [
 	i/1500
 	titanium/2750
