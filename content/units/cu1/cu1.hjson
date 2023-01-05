@@ -15,8 +15,8 @@ weapons: [
   name: none
   y: 0
   x: 0
-  reload: 30
-  inaccuracy: 30
+  reload: 25
+  inaccuracy: 25
   shots: 5
   rotate: false
   alternate: true
@@ -28,7 +28,7 @@ weapons: [
       backColor: ffd2ae
       speed: 5
       damage: 11
-      buildingDamageMultiplier: 0.2
+      buildingDamageMultiplier: 0.5
       collidesTeam: true
 	  spite: iron-bbul
       width: 10
