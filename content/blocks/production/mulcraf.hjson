@@ -1,0 +1,79 @@
+type: multicraft.MultiCrafter
+size: 3
+menu: Detailed
+hasPower: true
+hasItems: true
+craftTime: 20
+itemCapacity: 30
+updateEffect: smeltsmoke
+recipes: 
+[
+{
+  input: {
+    items: [iron-i-o/2]
+    power: 1
+  } 
+  output: {
+    items: [
+      iron-i/1
+    ]
+  }
+  craftTime: 90
+}
+{    
+  input: {
+    items: [iron-i-o/6]
+    power: 2
+  }  
+  output: {
+    items: [
+      iron-s/1
+    ]
+  }
+  craftTime: 120
+}
+{    
+  input: {
+    items: [iron-i/2]
+    power: 2
+  }  
+  output: {
+    fluids: [
+      iron-meltediron/1.5
+    ]
+  }
+  craftTime: 60
+}
+{    
+  input: {
+    items: [s/1,iron-i/1,iron-i-o/1]
+    fluids: iron-meltediron/0.1
+    power: 1.5
+  }  
+  output: {
+    items: [
+      iron-h-s/1
+    ]
+  }
+  craftTime: 150
+}       
+]
+requirements: [
+  graphite/275
+  silicon/225
+  i/175
+  s/20
+  copper/200
+  lead/90
+]
+category: crafting
+research: com
+objectives: [
+  {
+    type: OnSector
+    preset: scb
+  }
+  ]
+}
+idleSound: respawning
+idleSoundVolume: 0.5
