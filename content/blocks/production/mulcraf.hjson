@@ -68,12 +68,5 @@ requirements: [
 ]
 category: crafting
 research: com
-objectives: [
-  {
-    type: OnSector
-    preset: scb
-  }
-  ]
-}
 idleSound: respawning
 idleSoundVolume: 0.5
