@@ -11,21 +11,20 @@ plans: [
     unit: tg1
     requirements: [
       silicon/60
-      i/45
-	  s/5
+      i/30
+	  silicon/20
     ]
     time: 1200
   }
 ]
 category: units
 requirements: [
-  graphite/200
-  silicon/260
-  s/75
-  i/100
+  graphite/125
+  silicon/100
+  i/55
 ]
 research: {
-parent: i-c-c
+parent: s-m
 objectives: [
   {
     type: OnSector
