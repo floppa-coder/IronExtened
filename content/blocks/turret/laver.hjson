@@ -30,6 +30,21 @@ toColor: f9a3c7
 ammoMultiplier: 6
 }
 }
+drawer:{
+ type: DrawTurret
+ parts: [
+{
+suffix: "-gun"
+mirror: false
+progress: recoil
+moveY: -2
+x: 0
+y: 0
+}
+]
+
+
+}
 requirements:[
 graphite/140
 silicon/156
