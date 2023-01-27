@@ -1,0 +1,29 @@
+{
+	"type": "Reconstructor",
+	"name": "C-4 Reconstructor",
+	"size": 3,
+	"constructTime": 150,
+	"consumes": {
+		"power": 3,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 35},
+				{"item": "graphite", "amount": 20},
+				{"item": "s", "amount": 60},
+				{"item": "i", "amount": 60}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 30},
+		{"item": "s", "amount": 30},
+		{"item": "i", "amount": 100},
+		{"item": "graphite", "amount": 60},
+		{"item": "lead", "amount": 110}
+	],
+	"upgrades": [
+		["tg1", "tg2"]
+	],
+	"category": "units",
+	"research": "mf"
+}
