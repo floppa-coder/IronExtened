@@ -1,0 +1,37 @@
+type: flying
+name: Guard
+description: Defends the Corrosion core from enemies. Builds structures.
+speed: 2.0 
+flying: true
+health: 200
+armor: 8
+buildSpeed: 4.50
+mineSpeed: 2.5
+mineTier: 3
+itemCapacity: 60
+hitSize: 38
+weapons: [
+{
+  name: none
+  y: 0
+  x: 0
+  reload: 15
+  inaccuracy: 20
+  rotate: false
+  alternate: true
+  shootSound: missile
+  ejectEffect: none
+  bullet: {
+      type: BasicBulletType
+      frontColor: ffd2ae
+      backColor: ffd2ae
+      speed: 4
+      damage: 30
+      buildingDamageMultiplier: 0.65
+      collidesTeam: true
+	  spite: iron-hbul
+      width: 10
+      height: 10
+  }
+}
+]
