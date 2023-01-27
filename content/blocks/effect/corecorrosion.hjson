@@ -1,0 +1,19 @@
+name: "Core: Corrosion"
+description: "2th interation core this mod. Better version of core: Foundation."
+type: CoreBlock
+health: 7500
+size: 5
+itemCapacity: 11000
+unitCapModifier: 21
+unitType: cu2
+researchCost: ["i/3500", "titanium/4250", "s/3750", "h-s/1500", "copper/5500", "lead/4700", "silicon/6000"]
+research: corerust
+requirements: [
+	i/3000
+	titanium/4000
+	s/2500
+	h-s/1050
+	copper/5000
+	lead/4505
+	silicon/5000
+]
