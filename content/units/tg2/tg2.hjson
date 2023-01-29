@@ -48,5 +48,5 @@ despawnEffect: none
 }
 ]
 research: {
-parent: mf
+parent: mr
 }
