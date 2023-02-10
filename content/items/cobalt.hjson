@@ -1,0 +1,7 @@
+name: "Cobalt"
+description: "Cobalt, need in all energy buildings."
+color: "#b5b5b5"
+hardness: 4
+research: {
+parent: cobalt-ore
+}
