@@ -1,4 +1,6 @@
 type: ItemTurret
+name: quark
+description: First shotgun of baimerm, don't has inaccuraty, but has bullet cone.
 reload: 80
 rotateSpeed: 5
 targetGround: false
