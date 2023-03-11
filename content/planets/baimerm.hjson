@@ -1,0 +1,45 @@
+mesh: {
+  type: NoiseMesh
+  planet: baimerm
+  seed: 55
+  divisions: 4
+  color1: A488BE
+  color2: A488BE
+  colorScale: 2
+  radius: 0.8
+  octaves: 5
+  persistence: 1
+  scale: 1
+  mag: 1.5
+}
+sectorSize: 0.9
+generator: {
+
+}
+orbitSpacing: 12
+orbitRadius: 33
+raradius: 0.4
+minZoom: 0.4
+maxZoom: 8
+drawOrbit: true
+atmosphereRadIn: 0.5
+atmosphereRadOut: 0.65
+accessible: true
+updateLighting: true
+sectorSeed: 0
+bloom: false
+visible: true
+atmosphereColor: ADA5BA
+iconColor: 323a19
+hasAtmosphere: true
+allowSectorInvasion: false
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowLaunchSchematics: true
+allowWaves: true
+defaultCore: core-shard
+parent: sun
+alwaysUnlocked: true
+hiddenItems: [
+    copper, lead, surge-alloy, phase-fabric, titanium, thorium, beryllium, oxide, scrap
+]
