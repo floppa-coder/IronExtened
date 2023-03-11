@@ -1,0 +1,24 @@
+name: "Medium Iron Drill"
+health: 120
+size: 2
+type: BurstDrill
+category: production
+destrucrible: true
+breakable: true
+research:
+parent: iron-drill,
+tier: 3
+drillTime: 250
+buildVisibility: shown
+alwaysUnlocked: true
+hasPower: true
+itemCapacity: 27
+consumes: {
+  power: 1
+}
+requirements: [
+   i/100
+   s/20
+   silicon/80
+   copper/60
+]
