@@ -1,0 +1,59 @@
+type: ItemTurret
+reload: 80
+rotateSpeed: 5
+targetGround: false
+targetAir: true
+range: 175
+recoil: 1.5
+size: 2
+inaccuraty: 45
+health: 350
+AmmoPerShot: 5
+shootSound: pew
+shootShake: 1
+shootY: 3
+
+shoot: {
+    type: shootSpread
+    shots: 5
+    spread: 16
+    shotDelay: 0.05
+}
+
+ammoTypes: {
+    bbul: {
+        damage: 70
+        speed: 4
+        height: 8
+        width: 5
+        lifetime: 40
+    }
+	ibul: {
+		damage: 60
+		speed: 5
+		heght: 8
+		width: 5
+		lifetime: 80
+	}
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+{
+suffix: "-shot"
+mirror: false
+progress: recoil
+moveY: -3
+x: 0
+y: 0
+}
+]
+
+
+}
+requirements: [
+    i/125
+	cobalt/50
+]
+category: turret
+research: heater
