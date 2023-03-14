@@ -1,10 +1,10 @@
 {
   "name": "Iron Drill",
-  "description": "A tiny drill from iron.",
+  "description": "A tiny drill from iron. Need water and energy",
   "type": "Drill",
   "size": 1,
   "tier": 2,
-  "itemCapacity": 3,
+  "itemCapacity": 5,
   "drillTime": 40,
   "hasPower": true,
   "powerConsumes": 1,
@@ -12,7 +12,7 @@
   "consumes": {
     "liquid": {
       "liquid": "water",
-      "amount": 0.03125,
+      "amount": 0.02,
       "optional": false,
       "booster": true
     }
