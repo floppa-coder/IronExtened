@@ -10,9 +10,8 @@ plans: [
   {
     unit: tg1
     requirements: [
-      silicon/60
       i/30
-	  silicon/20
+      silicon/20
     ]
     time: 1200
   }
