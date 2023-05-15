@@ -2,6 +2,6 @@ name: "iron"
 displayName: "Iron Extended"
 author: "Floppa"
 description: "Add the new content. Requires Liplum/MultiCrafter lib"
-version: "0.3"
+version: "0.3, [black]wait HIM"
 dependencies: ["multi-crafter"]
 minGameVersion: 137
