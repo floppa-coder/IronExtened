@@ -24,7 +24,7 @@ top: false
 bullet: {
 type: BasicBulletType
 speed: 3
-lifetime: 600
+lifetime: 180
 width: 8
 height: 8
 hitsize: 6
