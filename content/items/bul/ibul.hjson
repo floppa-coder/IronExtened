@@ -2,6 +2,7 @@ name: "Incendiary Bullet"
 description: "Basic bullet, but incendiary."
 color: "#b5b5b5"
 hardness: 3
+flammability: "0.15"
 research: {
 parent: bbulc
 }
