@@ -1,0 +1,10 @@
+name: "Kovar"
+description: "VERY good item. most used in liquid blocks."
+color: "#bf7f5a"
+flammability: "0.03"
+explosiveness: "0.45"
+charge: "0.15"
+hardness: 5
+research: {
+parent: s
+}

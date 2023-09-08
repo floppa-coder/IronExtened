@@ -1,0 +1,9 @@
+name: "Sulfur"
+description: "Good fuel."
+color: "#bf7f5a"
+flammability: "0.03"
+explosiveness: "0.45"
+hardness: 3
+research: {
+parent: nicel
+}

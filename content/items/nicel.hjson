@@ -1,0 +1,8 @@
+name: "Nickel"
+description: "Nickel, need in more powerful energy buildings."
+color: "#d9c232"
+charge: "0.3"
+hardness: 3
+research: {
+parent: s
+}
