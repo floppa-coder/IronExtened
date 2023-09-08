@@ -1,5 +1,5 @@
-name: "Hevvy Steel"
-description: "Hevvy steel need in hevvy turrets and in production."
+name: "Heavy Steel"
+description: "Heavy steel need in strong turrets and in production."
 color: "#b5b5b5"
 hardness: 3
 research: {
