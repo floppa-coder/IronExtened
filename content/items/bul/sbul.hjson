@@ -1,6 +1,7 @@
 name: "Spore Bullet"
 description: "Basic bullet, but making units weaker."
 color: "#b5b5b5"
+flammability: "0.05"
 hardness: 3
 research: {
 parent: ibulc
