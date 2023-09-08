@@ -1,6 +1,7 @@
 name: "Big Incendiary Bullet"
 description: "Incendiary bullet, but more incendiary."
 color: "#b5b5b5"
+flammability: "0.55"
 hardness: 3
 research: {
 parent: abulc
