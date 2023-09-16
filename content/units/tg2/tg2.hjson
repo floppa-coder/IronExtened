@@ -1,6 +1,6 @@
 type: flying
 name: "Mine Shooter"
-description: "Shoots bullet with mines."
+description: "Shoots capsule with mine."
 flying: true
 health: 360
 hitSize: 14
@@ -24,7 +24,7 @@ top: false
 bullet: {
 type: BasicBulletType
 speed: 3
-lifetime: 180
+lifetime: 80
 width: 8
 height: 8
 hitsize: 6
