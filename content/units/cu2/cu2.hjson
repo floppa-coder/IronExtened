@@ -9,7 +9,7 @@ buildSpeed: 4.50
 mineSpeed: 2.5
 mineTier: 3
 itemCapacity: 60
-hitSize: 38
+hitSize: 19
 weapons: [
 {
   name: none
